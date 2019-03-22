@@ -10,7 +10,7 @@ public class csv {
             public ArrayList<Student> students = new ArrayList<>();
             
             Scanner scanner = new Scanner(new File(csv_path));
-            scanner.useDelimiter(",|\r\n");
+            scanner.useDelimiter(",|\r\n"); // ,|\\n
             
             String mail = "";
             String hall = "";
