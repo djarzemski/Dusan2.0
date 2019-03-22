@@ -5,9 +5,7 @@ import java.util.Scanner;
 
 public class csv {
 
-    public static void main(String[] args) {
-        private ArrayList<Student> studentArr = new ArrayList<>();
-
+    public static void main(String[] args){
         public csv(String csv_path) throws FileNotFoundException{
             Scanner scanner = new Scanner(new File(csv_path));
             scanner.useDelimiter(",|\r\n");
