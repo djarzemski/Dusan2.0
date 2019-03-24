@@ -9,11 +9,11 @@ public class Student {
     private int year;
     private Gender gender;
 
-    public Student(String email, String name, String hall, int year) {
+    public Student(String email, String name, String hall, String year) {
         this.email = email;
         this.fullName = name;
         this.hall = hall;
-        this.year = year;
+        this.year = decodeYear(year);
         this.gender = decodeGender(hall);
     }
 
