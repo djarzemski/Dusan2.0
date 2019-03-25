@@ -11,6 +11,5 @@ public class Main {
             System.out.println(e + "There is a problem with loading the data. Check if the csv file is in correct folder.");
         }
 
-        System.out.print(students);
     }
 }
