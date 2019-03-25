@@ -11,4 +11,6 @@ public class StudentGroup {
         this.students.add(student);
     }
 
+    pub
+
 }
