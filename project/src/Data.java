@@ -7,10 +7,9 @@ public class Data {
 
     public static ArrayList<Student> load(String path) throws FileNotFoundException{
         ArrayList<Student> students = new ArrayList<>();
-        System.out.println(path);
+
         Scanner scanner = new Scanner(new File(path));
         scanner.useDelimiter(",|\r\n");
-
 
         String mail = "";
         String hall = "";

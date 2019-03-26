@@ -86,10 +86,4 @@ public class Student {
     public Gender getGender() {
         return gender; 
     }
-
-    @Override
-    public String toString(){
-         return "Name: " + getFullName() + "; mail: " + getEmail() + "; hall: " + getHall() + "; gender: " + getGender() + "; year: " + getYear() + "\n";
-
-    }
 }
