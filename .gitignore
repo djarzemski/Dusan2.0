@@ -1,1 +1,4 @@
 production
+*.class
+project/src/database.csv
+
