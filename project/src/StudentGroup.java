@@ -29,7 +29,7 @@ public class StudentGroup {
 
     public ArrayList<Student> groupbyHall(String hall, ArrayList<Student> students){
         for(Student x: students){
-            if(x.getHall()==hall) addStudent(x);
+            if(x.getHall().equals(hall)) addStudent(x);
         }
 
         return picked_students;
