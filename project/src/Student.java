@@ -17,6 +17,11 @@ public class Student {
         this.gender = decodeGender(hall);
     }
 
+    /**
+     * Decode the gender variable, as it was in a different form when it was imported from csv file
+     * @param hall
+     * @return Enum version of gender
+     */
     private static Gender decodeGender(String hall){
         if(hall.equals("Founders") || hall.equals("Gentlemen")){
             return Gender.MALE;
@@ -26,6 +31,11 @@ public class Student {
         }
     }
 
+    /**
+     * decode the year variable, as it was in a different form when it was imported from csv file
+     * @param year
+     * @return new form of year
+     */
     private static int decodeYear(String year){
         int newYear;
         switch (year){
